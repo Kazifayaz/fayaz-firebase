@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fayaz project</title>
+<link rel="icon" type="image" href="./7915382.png"
+</head>
+<body>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<!-- pre loader  -->
+ <div id="preloader"></div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">FAYAZ<span>QAZI</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            
+              
+            
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is FAYAZ ALI </div>
+                <div class="text-2">WEB DEVLOPER</div>
+                <div class="text-3">And I'm a FRONT-END DEVLOPER<span class="typing"></span></div>
+                <div class="classbox">
+                <a href="./WORK.FIREBASE/INDEX.HTML">HIRE ME</a>
+            
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./" alt="img">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm FAYAZ QAZI   and I'm a <span class="typing-2"></span>WEB DESIGNER</div>
+                    <p> And I am 17 years  young boy with  dynamic and enthusiastic person looking for the job Web Design and Development mostly specializing in front end development. A firm believer in my own abilities, I am also a
+                        team player who thrives in a challenging environment.I am a fresher with new and dynamics project ideas. Well-versed in numerous programming languages including HTML5,PHP,MySQL, JavaScript,Python and strong background in project management and customer relations.  </p>
+                    <a href="./FIAZ ALI QAZI.pdf" download="">CHECK CV</a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <script type="text/javascript">
+        var preogressbar = document .getElementById("preogressbar")
+        var percent = document .getElementById("percent")
+       
+        var totalHeight = document .body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            var progress =( window.pageYOffset / totalHeight) * 100;
+            preogressbar.style.height = progress + "%";
+            percent.innerHTML = "Page Scrolled " + Math.round(progress)+ "%"
+        }
+    </script>
+<!-- pre loader js  -->
+  <script>
+      var loader = document .getElementById("preloader");
+
+      window.addEventListener("load", function(){
+         loader.style.display = "none";
+      })
+  </script>
+  <script src="./script.js"></script>
+    
+</body>
+</html> 
